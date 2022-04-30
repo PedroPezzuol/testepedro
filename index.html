@@ -16,9 +16,9 @@
     </style>
 </head>
 <body>
-    <!--
+    
     <img src="img.png" width="300px"><br>
-    <a href="twitter.com">twitter</a>-->
+    <a href="twitter.com">twitter</a>
 
     <table>
         <tr><th>pedro</th><th>pezzuol</th><th>19</th></tr>
@@ -26,10 +26,12 @@
         <tr><th>carlos</th><th>pezzuol</th><th>24</th></tr>
     </table>
 
-    <form action="php.php" method="post">
-        <label class="nome">Nome</label>
-        <input type="text" placeholder="Digite seu nome"><br>
-        <label>genero</label>
+    <form action="php.php" method="post" class="form">
+        <div class="nome">
+            <label>Nome</label>
+            <input type="text" placeholder="Digite seu nome"><br>
+        </div>
+        <label>genero</label>      
         <select>
             <option value="masculino">masc</option>
             <option value="feminino">femin</option>
@@ -41,7 +43,12 @@
         <input type="checkbox" value="val1">
 
         <input type="submit">
-    </form>
+    </form> 
+
+    <video controls autoplay>
+        <source src="video/video.mp4" 
+        type="video/mp4">
+    </video>
 
     <!--Cabeçalho -->
     <header>
